@@ -8,15 +8,16 @@ namespace exemplolistas_29_09
     {
         static void Main(string[] args)
         {
+            //crando uma variavel char para comparar no final
             string letra = "A";
             char letrinha = char.Parse(letra);
-            //Criando a lista de strings
+            //Criando o array com strings
             List<string> list = new List<string>();
-            //Adiciono elementos na lista
+            //Adicionando os nomes no array
             list.Add("Fábio"); list.Add("Wilson"); list.Add("Angelina"); list.Add("Eliney"); list.Add("Andre");
-            //Adiciona um elemento na posição sugerida
+            //Adiciona um nome em uma posição especifica
             list.Insert(2, "Lucas");
-            //Realizo um loop de leitura dos elementos inseridos
+            //Realizando um loop de leitura dos nomes inseridos
             foreach (string obj in list) {
                 //Conto quantos elementos tem na minha lista
                 Console.WriteLine("Qnt de elementos na Lista: " +list.Count);
